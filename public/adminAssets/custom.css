@@ -1,0 +1,26 @@
+:root{
+
+    --primary-color: #12c2b9;
+    
+    --secondary: #dbfffe;
+    
+    --black: #141414;
+    
+    --white: #fff;
+    
+    --box-shadow: 0.5rem 1rem ☐ rgba(0, 0, 0, 0.1);
+    
+    }
+
+.btn {
+background-color: var(--primary-color);
+text-align: center;
+
+}  
+.btn:hover {
+    background-color: #0b7c77;
+} 
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--primary-color) !important; /* Change the background color */
+    border-color: var(--primary-color) !important; /* Change the border color */
+   }     
